@@ -21,8 +21,8 @@ public class SimpleCalculate1010 {
 		InputStreamReader ir = new InputStreamReader(System.in);
 		BufferedReader in = new BufferedReader(ir);
 		
-		Product p1 = new Product(in.readLine(),in);
-		Product p2 = new Product(in.readLine(),in);
+		Product p1 = new Product(in.readLine());
+		Product p2 = new Product(in.readLine());
 		
 		double total = p1.qnt*p1.price + p2.qnt*p2.price;
 		
@@ -34,7 +34,7 @@ public class SimpleCalculate1010 {
 		double qnt;
 		double price;
 		
-		Product(String input, BufferedReader in) throws IOException{
+		Product(String input){
 			String[] s = input.split(" ");
 			name = s[0];
 			qnt = Double.parseDouble(s[1]);
