@@ -2,7 +2,7 @@ package beginner;
 
 import java.util.Scanner;
 
-public class Salary {
+public class Salary1008 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		

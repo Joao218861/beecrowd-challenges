@@ -2,7 +2,7 @@ package beginner;
 
 import java.util.Scanner;
 
-public class CircleArea {
+public class CircleArea1002 {
 	public static void main(String[] args) {
 		final double pi = 3.14159;
 	

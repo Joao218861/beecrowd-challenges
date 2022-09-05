@@ -2,7 +2,7 @@ package beginner;
 
 import java.util.Scanner;
 
-public class ExtremelyBasic {
+public class ExtremelyBasic1001 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
