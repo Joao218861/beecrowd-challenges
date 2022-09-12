@@ -23,7 +23,7 @@ public class SalaryBonus1009 {
 		InputStreamReader ir = new InputStreamReader(System.in);
 		BufferedReader in = new BufferedReader(ir);
 		
-		String name = in.readLine();
+		//String name = in.readLine();
 		double fixedSalary = Double.parseDouble(in.readLine());
 		double sales = Double.parseDouble(in.readLine());
 		
